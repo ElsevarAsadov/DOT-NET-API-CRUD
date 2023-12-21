@@ -1,7 +1,9 @@
-﻿namespace API_Task.DTOs.Category
+﻿using API_Task.Entities.Bases;
+
+namespace API_Task.DTOs.Category
 {
-    public class DTOCategoryDelete
+    public class DTOCategoryDelete : BaseEntity
     {
-        public int zaza { get; set; }
+        public int Name { get; set; }
     }
 }
